@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="PokerChallenge/PokerChallenge.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Deck/CardDeck.cs">
+    <Files>
+      <File FileName="PokerChallenge/Dealer.cs" Line="10" Column="4" />
+      <File FileName="Deck/CardDeck.cs" Line="16" Column="1" />
+      <File FileName="TestDeck/DeckTest.cs" Line="15" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PokerChallenge" expanded="True">
+            <Node name="Deck" expanded="True" />
+            <Node name="PokerChallenge" expanded="True" />
+            <Node name="TestDeck" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

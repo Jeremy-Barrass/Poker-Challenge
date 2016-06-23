@@ -1,0 +1,5 @@
+/home/jeremy/Dropbox/Github/PokerChallenge/Deck/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/jeremy/Dropbox/Github/PokerChallenge/Deck/bin/Debug/Deck.dll.mdb
+/home/jeremy/Dropbox/Github/PokerChallenge/Deck/bin/Debug/Deck.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/Deck/obj/Debug/Deck.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/Deck/obj/Debug/Deck.dll.mdb
