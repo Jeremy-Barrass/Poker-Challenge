@@ -7,12 +7,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deck", "Deck\Deck.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDeck", "TestDeck\TestDeck.csproj", "{9C9273CB-890F-4964-8FDB-3869CF1F1B09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "Cards\Cards.csproj", "{26F4B5EA-5E13-40E1-902F-85AD7B6B0210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGeneration", "CardGeneration\CardGeneration.csproj", "{95F5CAC2-1704-4805-817B-483498472E5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26F4B5EA-5E13-40E1-902F-85AD7B6B0210}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{26F4B5EA-5E13-40E1-902F-85AD7B6B0210}.Debug|x86.Build.0 = Debug|Any CPU
+		{26F4B5EA-5E13-40E1-902F-85AD7B6B0210}.Release|x86.ActiveCfg = Release|Any CPU
+		{26F4B5EA-5E13-40E1-902F-85AD7B6B0210}.Release|x86.Build.0 = Release|Any CPU
+		{95F5CAC2-1704-4805-817B-483498472E5E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{95F5CAC2-1704-4805-817B-483498472E5E}.Debug|x86.Build.0 = Debug|Any CPU
+		{95F5CAC2-1704-4805-817B-483498472E5E}.Release|x86.ActiveCfg = Release|Any CPU
+		{95F5CAC2-1704-4805-817B-483498472E5E}.Release|x86.Build.0 = Release|Any CPU
 		{9C9273CB-890F-4964-8FDB-3869CF1F1B09}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{9C9273CB-890F-4964-8FDB-3869CF1F1B09}.Debug|x86.Build.0 = Debug|Any CPU
 		{9C9273CB-890F-4964-8FDB-3869CF1F1B09}.Release|x86.ActiveCfg = Release|Any CPU
