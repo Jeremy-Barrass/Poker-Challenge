@@ -1,0 +1,3 @@
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGeneration/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGeneration/bin/Debug/Cards.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGeneration/bin/Debug/Cards.dll.mdb

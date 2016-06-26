@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "Cards\Cards.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGeneration", "CardGeneration\CardGeneration.csproj", "{95F5CAC2-1704-4805-817B-483498472E5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardTest", "CardTest\CardTest.csproj", "{D27D9E89-8F99-4EE9-A8F8-3915C0214B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGenerationTest", "CardGenerationTest\CardGenerationTest.csproj", "{29515EB3-E027-44A5-AA83-EDAA6F7497EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,6 +25,10 @@ Global
 		{26F4B5EA-5E13-40E1-902F-85AD7B6B0210}.Debug|x86.Build.0 = Debug|Any CPU
 		{26F4B5EA-5E13-40E1-902F-85AD7B6B0210}.Release|x86.ActiveCfg = Release|Any CPU
 		{26F4B5EA-5E13-40E1-902F-85AD7B6B0210}.Release|x86.Build.0 = Release|Any CPU
+		{29515EB3-E027-44A5-AA83-EDAA6F7497EB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{29515EB3-E027-44A5-AA83-EDAA6F7497EB}.Debug|x86.Build.0 = Debug|Any CPU
+		{29515EB3-E027-44A5-AA83-EDAA6F7497EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{29515EB3-E027-44A5-AA83-EDAA6F7497EB}.Release|x86.Build.0 = Release|Any CPU
 		{95F5CAC2-1704-4805-817B-483498472E5E}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{95F5CAC2-1704-4805-817B-483498472E5E}.Debug|x86.Build.0 = Debug|Any CPU
 		{95F5CAC2-1704-4805-817B-483498472E5E}.Release|x86.ActiveCfg = Release|Any CPU
@@ -37,5 +45,9 @@ Global
 		{C9CF2322-701D-4F6D-B3AF-88735B8D1260}.Debug|x86.Build.0 = Debug|x86
 		{C9CF2322-701D-4F6D-B3AF-88735B8D1260}.Release|x86.ActiveCfg = Release|x86
 		{C9CF2322-701D-4F6D-B3AF-88735B8D1260}.Release|x86.Build.0 = Release|x86
+		{D27D9E89-8F99-4EE9-A8F8-3915C0214B1C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D27D9E89-8F99-4EE9-A8F8-3915C0214B1C}.Debug|x86.Build.0 = Debug|Any CPU
+		{D27D9E89-8F99-4EE9-A8F8-3915C0214B1C}.Release|x86.ActiveCfg = Release|Any CPU
+		{D27D9E89-8F99-4EE9-A8F8-3915C0214B1C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

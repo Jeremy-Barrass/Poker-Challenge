@@ -29,17 +29,18 @@ namespace CardGeneration
 		private void AssignCards(List<Card> cards) {
 			for (int x = 0; x < 4; x++) {
 				for (int y = 0; y < 14; y++) {
-					cardsetCardSuit(suits[x]);
+					cards[]etCardSuit(suits[x]);
 				}
 			}
 		}
 
-		public void generateCards(List<Card> deck) {
+		public List<Card> generateCards(List<Card> deck) {
 			for (int x = 0; x < 52; x++) {
 				Card card = new Card ();
 				deck.Add (card);
 			}
 			AssignCards(deck);
+			return deck;
 		}
 
 	}

@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9C9273CB-890F-4964-8FDB-3869CF1F1B09}</ProjectGuid>
+    <ProjectGuid>{D27D9E89-8F99-4EE9-A8F8-3915C0214B1C}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>TestDeck</RootNamespace>
-    <AssemblyName>TestDeck</AssemblyName>
+    <RootNamespace>CardTest</RootNamespace>
+    <AssemblyName>CardTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -32,27 +32,16 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.3.2.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.Core">
-      <HintPath>..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Moq">
-      <HintPath>..\packages\Moq.4.5.10\lib\net45\Moq.dll</HintPath>
+    <Reference Include="nunit.framework, Version=2.6.4.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <Package>nunit</Package>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DeckTest.cs" />
+    <Compile Include="TestCard.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Deck\Deck.csproj">
-      <Project>{C6AE73AA-262C-49D2-B7AA-A04D59D41B0A}</Project>
-      <Name>Deck</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\CardGeneration\CardGeneration.csproj">
-      <Project>{95F5CAC2-1704-4805-817B-483498472E5E}</Project>
-      <Name>CardGeneration</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Cards\Cards.csproj">
       <Project>{26F4B5EA-5E13-40E1-902F-85AD7B6B0210}</Project>
       <Name>Cards</Name>

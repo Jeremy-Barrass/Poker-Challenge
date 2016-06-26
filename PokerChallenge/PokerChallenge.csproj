@@ -46,5 +46,17 @@
       <Project>{9C9273CB-890F-4964-8FDB-3869CF1F1B09}</Project>
       <Name>TestDeck</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CardGeneration\CardGeneration.csproj">
+      <Project>{95F5CAC2-1704-4805-817B-483498472E5E}</Project>
+      <Name>CardGeneration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cards\Cards.csproj">
+      <Project>{26F4B5EA-5E13-40E1-902F-85AD7B6B0210}</Project>
+      <Name>Cards</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CardTest\CardTest.csproj">
+      <Project>{D27D9E89-8F99-4EE9-A8F8-3915C0214B1C}</Project>
+      <Name>CardTest</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

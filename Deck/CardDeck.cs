@@ -8,11 +8,12 @@ namespace Deck
 {
 	public class CardDeck
 	{
-		CardGenerator cg = new CardGenerator ();
+		public CardDeck(CardGenerator CG) {
+			CardGenerator cg = CG;
+			currentCards = cg.generateCards(currentCards);
+		}
 
 		private List<Card> currentCards = new List<Card>();
-
-		cg.generateCards(currentCards);
 
 		public int getRemainingCards ()
 		{
