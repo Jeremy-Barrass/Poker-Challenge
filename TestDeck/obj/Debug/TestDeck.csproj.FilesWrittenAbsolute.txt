@@ -6,3 +6,9 @@
 /home/jeremy/Dropbox/Github/PokerChallenge/TestDeck/bin/Debug/TestDeck.dll
 /home/jeremy/Dropbox/Github/PokerChallenge/TestDeck/obj/Debug/TestDeck.dll
 /home/jeremy/Dropbox/Github/PokerChallenge/TestDeck/obj/Debug/TestDeck.dll.mdb
+/home/jeremy/Dropbox/Github/PokerChallenge/TestDeck/bin/Debug/Castle.Core.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/TestDeck/bin/Debug/Moq.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/TestDeck/bin/Debug/CardGeneration.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/TestDeck/bin/Debug/CardGeneration.dll.mdb
+/home/jeremy/Dropbox/Github/PokerChallenge/TestDeck/bin/Debug/Cards.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/TestDeck/bin/Debug/Cards.dll.mdb

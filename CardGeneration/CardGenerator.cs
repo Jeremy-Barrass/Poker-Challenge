@@ -7,30 +7,28 @@ namespace CardGeneration
 {
 	public class CardGenerator {
 
-		public CardGenerator() {
-			Dictionary<string,int> values = new Dictionary<string, int> ();
-			values.Add("Ace", 1);
-			values.Add("Two", 2);
-			values.Add("Three", 3);
-			values.Add("Four", 4);
-			values.Add("Five", 5);
-			values.Add("Six", 6);
-			values.Add("Seven", 7);
-			values.Add("Eight", 8);
-			values.Add("Nine", 9);
-			values.Add("Ten", 10);
-			values.Add("Jack", 11);
-			values.Add("Queen", 13);
-			values.Add("King", 14);
-		}
-
 		private string[] suits = { "Spade", "Club", "Diamond", "Heart" };
 
+		private string[] values = {
+			"Ace",
+			"Two",
+			"Three",
+			"Four",
+			"Five",
+			"Six",
+			"Seven",
+			"Eight",
+			"Nine",
+			"Ten",
+			"Jack",
+			"Queen",
+			"King"
+		};
+
 		private void AssignCards(List<Card> cards) {
-			for (int x = 0; x < 4; x++) {
-				for (int y = 0; y < 14; y++) {
-					cards[]etCardSuit(suits[x]);
-				}
+			for (int x = 0; x < 52; x++) {
+				cards [x].setCardSuit (suits[x / 4]);
+				cards [x].setCardValue (values[x / 13]);
 			}
 		}
 

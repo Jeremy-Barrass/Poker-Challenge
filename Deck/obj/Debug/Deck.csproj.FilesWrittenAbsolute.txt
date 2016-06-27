@@ -3,3 +3,7 @@
 /home/jeremy/Dropbox/Github/PokerChallenge/Deck/bin/Debug/Deck.dll
 /home/jeremy/Dropbox/Github/PokerChallenge/Deck/obj/Debug/Deck.dll
 /home/jeremy/Dropbox/Github/PokerChallenge/Deck/obj/Debug/Deck.dll.mdb
+/home/jeremy/Dropbox/Github/PokerChallenge/Deck/bin/Debug/Cards.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/Deck/bin/Debug/Cards.dll.mdb
+/home/jeremy/Dropbox/Github/PokerChallenge/Deck/bin/Debug/CardGeneration.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/Deck/bin/Debug/CardGeneration.dll.mdb

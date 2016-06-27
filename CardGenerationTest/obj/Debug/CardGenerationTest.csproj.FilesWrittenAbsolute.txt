@@ -1,0 +1,8 @@
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGenerationTest/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGenerationTest/bin/Debug/Castle.Core.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGenerationTest/bin/Debug/Moq.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGenerationTest/bin/Debug/nunit.framework.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGenerationTest/bin/Debug/CardGeneration.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGenerationTest/bin/Debug/CardGeneration.dll.mdb
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGenerationTest/bin/Debug/Cards.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/CardGenerationTest/bin/Debug/Cards.dll.mdb

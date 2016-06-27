@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Deck;
 using CardGeneration;
 using Cards;
@@ -11,18 +12,14 @@ namespace TestDeck
 	public class DeckTest
 	{
 		Mock<CardGenerator> cardGen = new Mock<CardGenerator> ();
-		CardGenerator gc = cardGen.Object;
 
-		Mock<Card> cardMock = new Mock<Card> ();
-		Card cm = cardMock.Object;
+		Mock<List<Card>> cardListMock = new Mock<List<Card>> ();
 
-		gc.Setup(gc => gc.generateCards(List<Card>));
-
-		CardDeck deck = new CardDeck(gc);
+		CardDeck deck = new CardDeck(cardGen.Object);
 
 		[Test]
 		public void ItCallsTheCardGeneratorGenerateCardsMethod() {
-			cardMock.Verify(gc => gc.generateCards(List<Card>)
+			cardGen.Verify(x => x.generateCards(It.IsAny<List<Card>>()));
 		}
 
 		[Test]

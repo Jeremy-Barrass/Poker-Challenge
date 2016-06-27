@@ -2,3 +2,7 @@
 /home/jeremy/Dropbox/Github/PokerChallenge/CardTest/bin/Debug/nunit.framework.dll
 /home/jeremy/Dropbox/Github/PokerChallenge/CardTest/bin/Debug/Cards.dll
 /home/jeremy/Dropbox/Github/PokerChallenge/CardTest/bin/Debug/Cards.dll.mdb
+/home/jeremy/Dropbox/Github/PokerChallenge/CardTest/bin/Debug/CardTest.dll.mdb
+/home/jeremy/Dropbox/Github/PokerChallenge/CardTest/bin/Debug/CardTest.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/CardTest/obj/Debug/CardTest.dll
+/home/jeremy/Dropbox/Github/PokerChallenge/CardTest/obj/Debug/CardTest.dll.mdb

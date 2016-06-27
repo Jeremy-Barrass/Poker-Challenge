@@ -7,7 +7,7 @@ namespace CardTest
 	[TestFixture]
 	public class TestCard
 	{
-		Card card = new Card;
+		Card card = new Card();
 
 		[SetUp]
 		public void BeforeEach() {
